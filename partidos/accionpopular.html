@@ -25,7 +25,7 @@
       integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="css/modulo.css" />
+    <link rel="stylesheet" href="detalle.css" />
 </head>
 <body>
    <header>
@@ -35,7 +35,7 @@
        <div class="container text-center">
         <h2>ACCION POPULAR</h2>
         <figure>
-            <img src="img/accion_popular.png" alt="">
+            <img src="/img/accion_popular.png" alt="">
         </figure>
         </div>
         <div class="container">
@@ -45,19 +45,138 @@
         </div><br>
         
         <div class="container">
-            <h5>Formulas Presidenciales </h5> <hr>
+            <h5>Formulas Presidenciales del Partido</h5> <hr>
 
+              <ul class="nav nav-tabs nav-fill" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="form1-tab" data-toggle="tab" href="#form1" role="tab" aria-controls="form1" aria-selected="true">FORMULA 1</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="form2-tab" data-toggle="tab" href="#form2" role="tab" aria-controls="form2" aria-selected="false">FORMULA 2</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="form3-tab" data-toggle="tab" href="#form3" role="tab" aria-controls="form3" aria-selected="false">FORMULA 3</a>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="form1" role="tabpanel" aria-labelledby="form1-tab">
+                    <div class="container  "><br><br>
+                        <div class="row text-center">
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>                                   
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>1er VICEPRESIDENTE</span><br>
+                                    <button type="button" class="btn btn-block" data-toggle="modal" data-target="#staticBackdrop">
+                                        Hoja de Vida
+                                      </button>
+                                </section>
+                            </div>
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>
+                                  
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>PRESIDENTE</span>
+                                </section>
+                            </div>
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>
+                                    <h4></h4>
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>2dp VICEPRESIDENTE</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="form2" role="tabpanel" aria-labelledby="form2-tab">
+                    <div class="container  "><br><br>
+                        <div class="row text-center">
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>                                   
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>1er VICEPRESIDENTE</span>
+                                </section>
+                            </div>
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>
+                                  
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>PRESIDENTE</span>
+                                </section>
+                            </div>
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>
+                                    <h4></h4>
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>2dp VICEPRESIDENTE</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade show " id="form3" role="tabpanel" aria-labelledby="form3-tab">
+                    <div class="container  "><br><br>
+                        <div class="row text-center">
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>                                   
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>1er VICEPRESIDENTE</span>
+                                </section>
+                            </div>
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>
+                                  
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>PRESIDENTE</span>
+                                </section>
+                            </div>
+                            <div class="col-sm-4">
+                                <section>
+                                    <figure class="formula">
+                                        <img src="/img/machu picchi.jpg" alt="">
+                                    </figure>
+                                    <h4></h4>
+                                    <h5>JUAN MANUEL CRSA</h5>
+                                    <span>2dp VICEPRESIDENTE</span>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
    
         <div>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#staticBackdrop">
-    Launch static backdrop modal
-  </button>
+
   
   <!-- Modal -->
   <div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog  modal-lg">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
@@ -66,44 +185,18 @@
           </button>
         </div>
         <div class="modal-body">
-            <div class="modal-body">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-md-4">.col-md-4</div>
-                    <div class="col-md-4 ml-auto">.col-md-4 .ml-auto</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-3 ml-auto">.col-md-3 .ml-auto</div>
-                    <div class="col-md-2 ml-auto">.col-md-2 .ml-auto</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 ml-auto">.col-md-6 .ml-auto</div>
-                  </div>
-                  <div class="row">
-                    <div class="col-sm-9">
-                      Level 1: .col-sm-9
-                      <div class="row">
-                        <div class="col-8 col-sm-6">
-                          Level 2: .col-8 .col-sm-6
-                        </div>
-                        <div class="col-4 col-sm-6">
-                          Level 2: .col-4 .col-sm-6
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+           gaaaaaaaaaaaaaa
+
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
-        </div>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
       </div>
     </div>
   </div>
 
-           
+
+  
         </div>
         
 	
