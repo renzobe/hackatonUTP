@@ -1,0 +1,37 @@
+body {
+    margin : 0;
+    padding: 0;;
+}
+
+main{
+    padding: 10px;
+}
+
+
+.jumbotron{
+    background: #ffffff;
+}
+
+.seg4{
+    background: #d3cf9f;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    color: white;
+}
+
+figure img {
+    width: 60%;
+
+}
+
+section{
+    width:30% ;
+}
+
+.btn-dark:hover{
+    background-color: white;
+    color: black;
+}
